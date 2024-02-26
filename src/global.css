@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+@font-face {
+  font-family: 'Dash-Horizon-Demo';
+  src: url('./assets/fonts/Dash-Horizon-Demo.otf') format('opentype');
+}
+body{
+  font-family: 'Dash-Horizon-Demo'!important;
+}
+p{
+  line-height: 1;
+  font-size: 16px;
+}
+h6{
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+:root{
+  --main: #4545ff;
+  --color0: #5c31d4;
+  --color1: #eae4ea;
+  --color2: #7514a4;
+  --color3: #c20e9f;
+  --color4: #c930e5;
+  --color5: #c60c3e;
+  --color6: #5588c7;
+}
+h5{
+  font-size: 18px;
+}
+p{
+  font-size: 20px;
+  line-height: 1.5;
+}
+h4{
+  font-size: 34px;
+  text-transform: capitalize;
+  font-weight: 300;
+  line-height: 1em;
+}
+h3{
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 1em;
+}
+h2{
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.2em;
+}
+h1{
+  font-size: 44px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  line-height: 1em;
+}
+
+
+ul{
+  list-style-type: none;
+}
+li{
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 14px;
+}
+ol{
+  list-style-type: decimal;
+}
+label{
+  display: block;
+  margin-bottom: 5px;
+}
+input{
+  padding: 5px 10px;
+  border: 1px solid #1f1a1a;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+}
+input::placeholder{
+  color: #ccc;
+}
+input:active{
+  border: 1px solid #ccc;
+}
+input:hover{
+  border: 1px solid #ccc;
+}
+a:hover{
+  text-decoration: underline;
+}
+a:visited{
+  color: inherit;
+}
+a:link{
+  color: inherit;
+}
